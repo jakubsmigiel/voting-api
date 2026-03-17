@@ -1,0 +1,15 @@
+services:
+  db:
+    image: pgrouting/pgrouting:15-3.3-3.4.1
+    environment:
+      POSTGRES_PASSWORD: abcdefg
+      POSTGRES_DB: wybory
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  adminer:
+    image: adminer
+    ports:
+      - 8081:8080
