@@ -1,4 +1,4 @@
-# Voting backend
+# Voting API
 
 A demo voting system in JavaSpringBoot with a PostgreSQL database.
 
