@@ -16,6 +16,12 @@ cd database
 docker-compose up -d
 ```
 
+## Build and Run
+The project was built with Maven. To compile and run, use JDK 21:
+```shell
+JAVA_HOME=/usr/lib/jvm/openjdk21 mvn clean install spring-boot:run
+```
+
 ## Documentation
 
 ### API
